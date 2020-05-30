@@ -1,7 +1,7 @@
 package bankaccountapp;
 
 public class Savings extends Account {
-	// List the properties specific to a savings account
+	//properties specific to a savings account
 	private int depID;
 	private int depKey;
 	
@@ -26,7 +26,7 @@ public class Savings extends Account {
 		
 	}
 
-	// List methods specific to savings account
+	// methods specific to savings account
 	public void showInfo() {
 		super.showInfo();
 		System.out.println(
