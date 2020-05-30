@@ -1,7 +1,7 @@
 package bankaccountapp;
 
 public class Checking extends Account{
-	// List the properties specific to a checking account
+	//properties specific to a checking account
 	private int debitCardNum;
 	private int debitCardPin;
 	
@@ -23,7 +23,7 @@ public class Checking extends Account{
 		
 	}
 
-	// List methods specific to checking account
+	// methods specific to checking account
 	public void showInfo() {
 		super.showInfo();
 		System.out.println(
