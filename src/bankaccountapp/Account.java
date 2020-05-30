@@ -1,7 +1,7 @@
 package bankaccountapp;
 
 public abstract class Account implements IRate{
-	// List common properties for savings and checking account
+	// List of common properties for savings and checking account
 	private String name;
 	private String sSN;
 	private double balance;
@@ -40,7 +40,7 @@ public abstract class Account implements IRate{
 		printBalance();
 	}
 	
-	//List common methods
+	//List of common methods
 	public void deposit(double amount) {
 		balance = balance + amount;
 		System.out.println("Depositting $" +amount);
