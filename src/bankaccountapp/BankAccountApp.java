@@ -9,7 +9,7 @@ public class BankAccountApp {
 		String file = "C:\\Users\\witha\\OneDrive\\Desktop\\Bank Application\\BankAccount.csv";
 		List<Account> accounts = new LinkedList<Account>();
 		
-		// Read CSV fine then create new accounts based on that data
+		// Reads CSV file then creates new accounts based on that data
 		List<String[]> newAccountHolders = utilities.CSV.read(file);
 		for(String[] accountHolder : newAccountHolders) {
 			String name = accountHolder[0];
